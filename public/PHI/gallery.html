@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>GHOST FITNESS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="YasirKareem">
+    <!-- Start Favicons -->
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicons/favicon-16x16.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicons/favicon-32x32.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/favicons/favicon-48x48.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#ce3745">
+    <meta name="apple-mobile-web-app-title" content="Ghost Fitness">
+    <meta name="application-name" content="Ghost Fitness">
+    <meta name="msapplication-TileColor" content="#ce3745">
+    <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ce3745">
+    <!-- End Favicons -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesom -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Font Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+    <!-- Animat -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="css/lightbox.min.css" rel="stylesheet">
+    <!-- Lity -->
+    <link href="css/lity.min.css" rel="stylesheet">
+    <!-- Bttn -->
+    <link rel="stylesheet" href="css/bttn.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--[if lt IE 9]>
+     <script src="js/html5shiv.min.js"></script>
+     <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-inverse  navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <div class="container navbar-toggle collapsed" onclick="myFunction(this)" data-toggle="collapse" data-target="#menuicon" aria-expanded="true" role="button">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/logo/logo.png" alt="logo"> </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menuicon">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+                    <li><a href="classes.html">CLASSES</a></li>
+                    <li><a href="trainers.html">TRAINERS</a></li>
+                    <li><a href="timetable.html">TIMETABLE</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li class="active"><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start header -->
+    <header id="header-gallery">
+        <div class="header-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="header-text header_style_left">
+                    <h1 class="animated fadeInUp">GALLERY</h1>
+                    <h3 class="animated fadeInUp">PHOTOS ABOUT US</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+    <!-- Start Section Gallery -->
+    <div class="container gallery-page">
+        <!-- Start Button Group -->
+        <div id="filters" class="button-group">
+            <button class="button bttn-fill bttn-md bttn-primary is-checked" data-filter="*">ALL</button>
+            <button class="button bttn-fill bttn-md bttn-primary" data-filter=".aerobics">AEROBICS</button>
+            <button class="button bttn-fill bttn-md bttn-primary" data-filter=".crossfit">CROSSFIT</button>
+            <button class="button bttn-fill bttn-md bttn-primary" data-filter=".fitness">FITNESS</button>
+            <button class="button bttn-fill bttn-md bttn-primary" data-filter=".hall">HALL</button>
+            <button class="button bttn-fill bttn-md bttn-primary" data-filter=".video">VIDEO</button>
+        </div>
+        <!-- End Button Group -->
+        <!-- Sart Grid -->
+        <div class="grid">
+            <!-- Aerobics -->
+            <div class="grid-item aerobics" data-category="aerobics">
+                <a class="gallery-box" data-lightbox="aerobics" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-aerobics1"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Crossfite -->
+            <div class="grid-item grid-item--width2 crossfit" data-category="crossfit">
+                <a class="gallery-box" data-lightbox="crossfit" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-crossfit1"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Hall -->
+            <div class="grid-item hall" data-category="hall">
+                <a class="gallery-box" data-lightbox="hall" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-hall1"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Fitness -->
+            <div class="grid-item fitness" data-category="fitness">
+                <a class="gallery-box" data-lightbox="fitness" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-fitness1">
+                    </div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Crossfite -->
+            <div class="grid-item crossfit" data-category="crossfit">
+                <a class="gallery-box" data-lightbox="crossfit" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-crossfit2"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Aerobics -->
+            <div class="grid-item aerobics" data-category="aerobics">
+                <a class="gallery-box" data-lightbox="aerobics" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-aerobics2"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Fitness -->
+            <div class="grid-item fitness" data-category="fitness">
+                <a class="gallery-box" data-lightbox="fitness" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-fitness2">
+                    </div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Crossfite -->
+            <div class="grid-item crossfit" data-category="crossfit">
+                <a class="gallery-box" data-lightbox="crossfit" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-crossfit3"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Fitness -->
+            <div class="grid-item grid-item--width2 fitness" data-category="fitness">
+                <a class="gallery-box" data-lightbox="fitness" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-fitness3">
+                    </div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Hall -->
+            <div class="grid-item hall" data-category="hall">
+                <a class="gallery-box" data-lightbox="hall" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-hall2">
+                    </div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Video -->
+            <div class="grid-item grid-item--width2 video">
+                <a class="gallery-box" href="https://www.youtube.com/watch?v=InwinyOso8I" data-category="video" data-lity>
+                    <div class="img-video1"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-play"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Video -->
+            <div class="grid-item grid-item--width2 video">
+                <a class="gallery-box" href="https://www.youtube.com/watch?v=3o4aHHXJDBc" data-category="video" data-lity>
+                    <div class="img-video2"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-play"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Aerobics -->
+            <div class="grid-item aerobics" data-category="aerobics">
+                <a class="gallery-box" data-lightbox="aerobics" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-aerobics3"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Fitness -->
+            <div class="grid-item fitness" data-category="fitness">
+                <a class="gallery-box" data-lightbox="fitness" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-fitness4">
+                    </div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Hall -->
+            <div class="grid-item hall" data-category="hall">
+                <a class="gallery-box" data-lightbox="hall" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-hall3">
+                    </div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Crossfite -->
+            <div class="grid-item crossfit" data-category="crossfit">
+                <a class="gallery-box" data-lightbox="crossfit" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-crossfit4"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Crossfite -->
+            <div class="grid-item grid-item--width3 crossfit" data-category="crossfit">
+                <a class="gallery-box" data-lightbox="crossfit" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-crossfit5"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Aerobics -->
+            <div class="grid-item aerobics" data-category="aerobics">
+                <a class="gallery-box" data-lightbox="aerobics" href="http://via.placeholder.com/277x245/272727/8e8d8d">
+                    <div class="img-aerobics4"></div>
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+        <!-- End Grid -->
+    </div>
+    <!-- End Section Gallery -->
+    <!-- Start Scroll Top -->
+    <div id="scroll-top">
+        <span><i class="fa fa-chevron-up" aria-hidden="true"></i>
+</span>
+    </div>
+    <!-- End Scroll Top -->
+    <!-- Start Footer-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Start About -->
+                <div id="about" class="col-lg-3 col-md-3 col-sm-12">
+                    <img src="img/logo/logo.png" alt="logo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias non, quo saepe voluptatem sequi ullam similique. Quidem, sapiente quibusdam iure consequatur reprehenderit temporibus amet, corrupti earum, voluptas tenetur expedita.
+                    </p>
+                    <div class="social-list ">
+                        <ul class="social">
+                            <li><a href="#" class="face" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="twit" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="youtube" title="Youtube"><i class="fa fa-youtube-play"></i></a></li>
+                            <li><a href="#" class="instagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End About -->
+                <!-- Start Pages -->
+                <div id="pages" class="col-lg-3 col-md-3 col-sm-12">
+                    <h6>PAGES</h6>
+                    <hr>
+                    <ul class="list-unstyled tow-columns">
+                        <li><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">CLASSES</a></li>
+                        <li><a href="trainers.html">TRAINERS</a></li>
+                        <li><a href="timetable.html">TIMETABLE</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li class="active"><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="contactus.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <!-- End Pages -->
+                <!-- Start Contact Us -->
+                <div id="contact-us" class="col-lg-3 col-md-3 col-sm-12">
+                    <h6>CONTACT US</h6>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li> <i class="fa fa-map-marker fa-cu" aria-hidden="true"></i>
+                            <a href="#">Gartenstraße 9, 6832 Sulz</a></li>
+                        <li> <i class="fa fa-phone fa-cu" aria-hidden="true"></i>
+                            <a href="#">050 8455 3420</a></li>
+                        <li> <i class="fa fa-envelope fa-cu" aria-hidden="true"></i>
+                            <a href="#">ghostfitness@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Contact Us -->
+                <!-- Start Instagram Feed -->
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="instagram-feed">
+                        <h6>INSTAGRAM FEED</h6>
+                        <hr>
+                        <div class="instagram-gallery">
+                            <!-- Instagram Img 1 -->
+                            <div class="instagram-img instagram-margin-right instagram-margin-bottom">
+                                <a target="_blank" href="http://via.placeholder.com/40x40/8e8d8d/1c1c1c">
+                                    <div class="instagram-img-1">
+                                        <div class="instagram-box">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Instagram Img 2 -->
+                            <div class="instagram-img instagram-margin-right instagram-margin-bottom">
+                                <a target="_blank" href="http://via.placeholder.com/40x40/8e8d8d/1c1c1c">
+                                    <div class="instagram-img-2">
+                                        <div class="instagram-box">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Instagram Img 3 -->
+                            <div class="instagram-img instagram-margin-bottom">
+                                <a target="_blank" href="http://via.placeholder.com/40x40/8e8d8d/1c1c1c">
+                                    <div class="instagram-img-3">
+                                        <div class="instagram-box">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Instagram Img 4 -->
+                            <div class="instagram-img instagram-margin-right">
+                                <a target="_blank" href="http://via.placeholder.com/40x40/8e8d8d/1c1c1c">
+                                    <div class="instagram-img-4">
+                                        <div class="instagram-box">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Instagram Img 5 -->
+                            <div class="instagram-img instagram-margin-right">
+                                <a target="_blank" href="http://via.placeholder.com/40x40/8e8d8d/1c1c1c">
+                                    <div class="instagram-img-5">
+                                        <div class="instagram-box">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Instagram Img 6 -->
+                            <div class="instagram-img">
+                                <a target="_blank" href="http://via.placeholder.com/40x40/8e8d8d/1c1c1c">
+                                    <div class="instagram-img-6">
+                                        <div class="instagram-box">
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Our Instagram Feed -->
+            </div>
+        </div>
+        <!-- Start Copy Right -->
+        <div class="text-center" id="copy-right">
+            <h6>COPYRIGHT © 2018 <span>GHOST</span> FITNESS</h6>
+        </div>
+        <!-- End Copy Right -->
+    </footer>
+    <!-- End Footer -->
+    <!-- Script -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lity.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

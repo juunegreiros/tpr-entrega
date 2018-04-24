@@ -1,0 +1,599 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(bootstrap.min.css);
+@import url(swiper.min.css);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Black.ttf);
+  font-weight: bolder; }
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+  font-weight: bold; }
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Thin.ttf);
+  font-weight: 200; }
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+  font-weight: 300; }
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf); }
+@font-face {
+  font-family: Orbitron;
+  src: url(../fonts/Orbitron/Orbitron-Bold.ttf);
+  font-weight: bold; }
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf); }
+@font-face {
+  font-family: AauxPro;
+  src: url(../fonts/AauxPro/aaux-probold.ttf); }
+body {
+  background-color: #1b8be0;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  overflow-x: hidden; }
+
+.img--center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.logo--top {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 175px); }
+
+.bg-circles {
+  position: absolute;
+  top: 375px;
+  left: 0;
+  z-index: -1; }
+
+h1 {
+  font-family: Roboto;
+  font-size: 30px;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  color: #ff9c00; }
+  h1.salvar-vida {
+    position: absolute;
+    top: 385px;
+    left: 50%;
+    margin-left: -80px;
+    width: 210px;
+    font-weight: bold; }
+
+@keyframes downArrow {
+  0% {
+    top: 595px; }
+  50% {
+    top: 605px; }
+  100% {
+    top: 595px; } }
+.arrow-base {
+  position: absolute;
+  top: 595px;
+  left: 50%;
+  margin-left: -27px;
+  animation: downArrow .8s forwards infinite; }
+
+#path {
+  position: relative;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto; }
+  #path #robot-path {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -150px;
+    width: 100%; }
+  #path .info-container {
+    position: absolute;
+    z-index: 3; }
+    #path .info-container#o-que-esperar {
+      top: 140px;
+      left: 38%; }
+    #path .info-container#vamos-la {
+      top: 645px;
+      left: 75%; }
+    #path .info-container#cuidado {
+      top: 720px;
+      left: 25.3%; }
+    #path .info-container#desafios {
+      top: 1200px;
+      left: 40%; }
+      #path .info-container#desafios .content-block {
+        left: 320px; }
+    #path .info-container#quase-la {
+      top: 1570px;
+      left: -8%; }
+      #path .info-container#quase-la .content-block {
+        left: 220px; }
+    #path .info-container#mas-antes {
+      top: 1870px;
+      left: 49%; }
+      #path .info-container#mas-antes .content-block.small {
+        top: 10px;
+        left: 18px; }
+      #path .info-container#mas-antes .info-title {
+        width: 300px;
+        padding: 10px;
+        padding-left: 15px; }
+    #path .info-container#final-resgate {
+      bottom: 89px;
+      left: 50%;
+      margin-left: -257px; }
+      #path .info-container#final-resgate .content-block {
+        top: 150px;
+        left: 125px; }
+        #path .info-container#final-resgate .content-block h2 {
+          font-family: 'Roboto';
+          font-size: 28px;
+          font-weight: bold; }
+        #path .info-container#final-resgate .content-block p {
+          font-family: 'Roboto', sans-serif;
+          font-size: 14px;
+          margin-top: 10px;
+          margin-bottom: 10px; }
+    #path .info-container h2 {
+      text-transform: uppercase;
+      color: #fff; }
+    #path .info-container p {
+      color: #fff; }
+    #path .info-container .content-block {
+      position: absolute;
+      top: 15px;
+      left: 60px;
+      z-index: -1;
+      opacity: 0;
+      -webkit-transition: all .8s;
+      -moz-transition: all .8s;
+      transition: all .8s; }
+      #path .info-container .content-block.front {
+        z-index: 2; }
+      #path .info-container .content-block.small {
+        top: 10px;
+        left: 35px; }
+      #path .info-container .content-block.without-bg {
+        margin-left: 25px; }
+        #path .info-container .content-block.without-bg .title {
+          font-family: 'Roboto', sans-serif;
+          font-size: 40px;
+          font-weight: bold;
+          margin-bottom: 5px; }
+        #path .info-container .content-block.without-bg .content {
+          font-family: 'Roboto', serif;
+          line-height: 1.5; }
+          #path .info-container .content-block.without-bg .content span {
+            text-transform: uppercase;
+            font-weight: bold; }
+    #path .info-container .info-title {
+      background-color: #0c192b;
+      padding: 15px;
+      padding-left: 25px;
+      border-radius: 20px;
+      border: 1px solid #fff;
+      font-size: 20px;
+      -webkit-transition: all .8s;
+      -moz-transition: all .8s;
+      transition: all .8s; }
+      #path .info-container .info-title h2 {
+        font-family: 'Orbitron', display;
+        text-align: center; }
+      #path .info-container .info-title.large {
+        font-size: 30px; }
+    #path .info-container .info-content {
+      background-color: #0c192b;
+      font-family: 'Roboto', sans-serif;
+      padding: 30px;
+      padding-top: 20px;
+      font-size: 18px;
+      line-height: 1.8;
+      font-weight: normal;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      border: 1px solid #fff;
+      border-top-color: transparent;
+      margin-right: 20px;
+      margin-left: 20px;
+      width: 365px;
+      -webkit-transition: all .8s;
+      -moz-transition: all .8s;
+      transition: all .8s; }
+
+.download-link {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px 50px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  -webkit-transition: .5s font-size;
+  -moz-transition: .5s font-size;
+  transition: .5s font-size; }
+  .download-link:hover, .download-link:active {
+    font-size: 20px;
+    color: #fff; }
+
+.btn-tpr {
+  background-image: url("../images/button.png");
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background-color: transparent; }
+  .btn-tpr:hover, .btn-tpr:active, .btn-tpr:focus {
+    text-shadow: 0 0 8px #2AB6B1;
+    box-shadow: none;
+    font-weight: bold; }
+
+#path .info-container.show-content .content-block {
+  opacity: 1; }
+
+#mentormodal .modal-header {
+  border: 0; }
+  #mentormodal .modal-header .close {
+    margin-top: -80px;
+    margin-right: -80px;
+    opacity: .85; }
+    #mentormodal .modal-header .close:focus, #mentormodal .modal-header .close:hover {
+      outline: none;
+      opacity: 1; }
+#mentormodal .modal-content {
+  background-image: url(../images/modal-border.png);
+  background-size: cover;
+  height: 468px;
+  width: 424px;
+  background-color: transparent;
+  border: none; }
+  #mentormodal .modal-content .content {
+    position: absolute;
+    z-index: -1;
+    margin: 20px;
+    top: 0;
+    left: 0; }
+    #mentormodal .modal-content .content .mentor {
+      width: 100%; }
+    #mentormodal .modal-content .content .info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 30px;
+      padding-bottom: 40px; }
+      #mentormodal .modal-content .content .info .title {
+        font-family: 'Orbitron', display;
+        text-align: center;
+        font-size: 28px;
+        text-transform: uppercase; }
+        #mentormodal .modal-content .content .info .title span {
+          font-size: 35px; }
+      #mentormodal .modal-content .content .info p {
+        font-family: 'Roboto';
+        margin-top: 10px;
+        text-align: center;
+        font-size: 14px; }
+
+.divisor {
+  position: absolute;
+  top: -140px;
+  left: 0;
+  z-index: 3; }
+
+#instagram-feed {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 400px; }
+  #instagram-feed .download {
+    width: 40%; }
+  #instagram-feed .material {
+    position: relative;
+    color: white;
+    font-family: Orbitron;
+    font-size: 28px;
+    width: 260px;
+    line-height: 34px;
+    top: 111px;
+    float: right; }
+    #instagram-feed .material .material-download {
+      margin-bottom: 20px; }
+  #instagram-feed .instafeed {
+    float: right;
+    position: relative;
+    top: -75px; }
+  #instagram-feed .insta-info {
+    position: absolute;
+    color: white;
+    left: 0;
+    bottom: -70px; }
+    #instagram-feed .insta-info .insta-logo {
+      display: inline-block; }
+    #instagram-feed .insta-info .insta-texts {
+      display: inline-block; }
+    #instagram-feed .insta-info .insta-user {
+      font-family: Roboto;
+      font-weight: Bold;
+      font-size: 28px; }
+    #instagram-feed .insta-info .insta-incentive {
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 15px; }
+
+#video-section {
+  position: relative;
+  margin-top: 30px; }
+  #video-section .video {
+    opacity: 0;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    transition: all .8s; }
+    #video-section .video #video {
+      width: 100%;
+      height: 550px; }
+  #video-section .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    height: 550px;
+    width: 100%;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    transition: all .8s; }
+    #video-section .image a[role="button"] {
+      cursor: pointer; }
+    #video-section .image .video-thumb {
+      width: 100%;
+      object-fit: cover; }
+    #video-section .image .video-frame {
+      position: absolute;
+      top: 12.5px;
+      left: calc(50% - 506px); }
+    #video-section .image .video-play {
+      position: absolute;
+      width: 84px;
+      height: 84px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      left: calc(50% - 42px);
+      top: calc(50% - 42px); }
+      #video-section .image .video-play .play {
+        position: absolute;
+        left: calc(50% - 12.5px);
+        top: calc(50% - 14.5px); }
+
+.ranking {
+  background-color: rgba(9, 46, 75, 0.85);
+  margin-bottom: 100px;
+  margin-top: 25px; }
+  .ranking .ranking-title {
+    padding: 50px 0;
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: white; }
+  .ranking .rank {
+    position: relative;
+    height: 400px; }
+    .ranking .rank .rank1, .ranking .rank .rank2, .ranking .rank .rank3, .ranking .rank .frame1, .ranking .rank .frame2, .ranking .rank .frame3 {
+      position: absolute;
+      bottom: 65px; }
+    .ranking .rank .rank2, .ranking .rank .frame2 {
+      right: 0; }
+    .ranking .rank .rank3, .ranking .rank .frame3 {
+      bottom: 60px;
+      left: 0; }
+    .ranking .rank .rank1 {
+      bottom: 103px;
+      width: 255px; }
+    .ranking .rank .rank2 {
+      width: 233px; }
+    .ranking .rank .rank3 {
+      width: 220px; }
+    .ranking .rank .frame1 {
+      bottom: 100px; }
+    .ranking .rank .team1, .ranking .rank .team2, .ranking .rank .team3 {
+      position: absolute;
+      font-family: "Courier New", Courier;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .ranking .rank .team1 {
+      color: white;
+      left: 8.7rem;
+      bottom: 109px;
+      font-size: 20px; }
+    .ranking .rank .team2 {
+      right: 4.2rem;
+      font-size: 18px;
+      bottom: 70px; }
+    .ranking .rank .team3 {
+      left: 3.35rem;
+      font-size: 16px;
+      bottom: 65px; }
+    .ranking .rank .position1, .ranking .rank .position2, .ranking .rank .position3 {
+      position: absolute;
+      box-shadow: 0 20px 35px -15px #333;
+      -moz-box-shadow: 0 20px 35px -15px #333;
+      -webkit-box-shadow: 0 20px 35px -15px #333; }
+    .ranking .rank .position1 {
+      bottom: -61px;
+      width: 255px; }
+    .ranking .rank .position2 {
+      right: 0;
+      width: 233px;
+      bottom: -60px; }
+    .ranking .rank .position3 {
+      width: 220px;
+      left: 0;
+      bottom: -47px; }
+    .ranking .rank .rank1, .ranking .rank .frame1, .ranking .rank .position1 {
+      left: calc(50% - 127px); }
+  .ranking .points {
+    padding: 11px 4px;
+    border-radius: 50%;
+    background-color: #f68800;
+    color: white;
+    font-family: AauxPro;
+    font-size: 14px;
+    position: relative; }
+  .ranking .school {
+    font-family: AauxPro;
+    color: white;
+    font-size: 21px;
+    position: relative;
+    padding-left: 4px; }
+  .ranking .school1 {
+    position: absolute;
+    width: 222px;
+    left: calc(50% - 111px);
+    bottom: -40px; }
+  .ranking .school2 {
+    position: absolute;
+    width: 184px;
+    bottom: -40px;
+    right: 24px; }
+  .ranking .school3 {
+    position: absolute;
+    width: 182px;
+    bottom: -30px;
+    left: 19px; }
+
+.swiper-container {
+  width: 100%;
+  height: 429px;
+  background-color: #092e4b; }
+  .swiper-container .swiper-slide {
+    position: relative; }
+    .swiper-container .swiper-slide img {
+      filter: grayscale(100%);
+      -webkit-transition: filter .5s;
+      -moz-transition: filter .5s;
+      transition: filter .5s; }
+    .swiper-container .swiper-slide.swiper-slide-active img {
+      filter: grayscale(0); }
+  .swiper-container .btn-slider {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 2rem;
+    z-index: 1;
+    padding: 20px 12px;
+    cursor: pointer; }
+  .swiper-container .btn-next {
+    top: 50%;
+    right: 31%; }
+  .swiper-container .btn-prev {
+    top: 50%;
+    left: 31%; }
+
+footer {
+  width: 100%;
+  height: 323px;
+  background-color: #092e4b;
+  position: relative;
+  bottom: 0;
+  z-index: 1; }
+  footer .robo-footer {
+    position: absolute;
+    left: -23px;
+    top: -57px; }
+  footer .container {
+    position: relative; }
+  footer .logo-text {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 285px;
+    top: 85px;
+    width: 45%; }
+    footer .logo-text .viamaker-logo {
+      width: auto;
+      height: 85px; }
+    footer .logo-text .footer-text {
+      color: white;
+      font-family: 'Montserrat';
+      font-size: 10px;
+      line-height: 16px;
+      text-transform: uppercase;
+      margin-left: 50px;
+      margin-top: 17px; }
+  footer .eaglex-copyright {
+    position: relative;
+    float: right;
+    color: white;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 200; }
+    footer .eaglex-copyright .eaglex-logo {
+      position: relative;
+      top: 12px;
+      right: -10px; }
+
+/*# sourceMappingURL=style.css.map */
