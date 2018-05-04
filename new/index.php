@@ -249,28 +249,6 @@
 					<div class="swiper-slide"><img src="./images/galeria/18.jpg" alt=""></div>
 					<div class="swiper-slide"><img src="./images/galeria/19.jpg" alt=""></div>
 					<div class="swiper-slide"><img src="./images/galeria/20.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/21.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/22.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/23.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/24.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/25.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/26.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/27.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/28.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/29.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/30.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/31.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/32.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/33.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/34.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/35.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/36.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/37.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/38.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/39.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/40.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/41.jpg" alt=""></div>
-					<div class="swiper-slide"><img src="./images/galeria/42.jpg" alt=""></div>
 				</div>
 				<img src="./images/arrow-left.png" alt="" class="btn-slider btn-prev">
 				<img src="./images/arrow-right.png" alt="" class="btn-slider btn-next">
